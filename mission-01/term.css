@@ -15,25 +15,24 @@
 }
 .web-title {
   font-size: 15px;
+  padding-left: 15px;
 }
 
-.web-img:first-child {
-  float: right;
-}
 
-.web-img:last-child {
+
+.web-img{
   float: left;
+  margin: 0 15px 0 0; 
 }
 
 .web-subtitle {
   color: #296897;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
-
-.web-subtitle:last-child {
-  float: right;
-  text-align: left;
+.web-subtitle:last-child{
+  text-align: center;
 }
 
 .web-summary {
