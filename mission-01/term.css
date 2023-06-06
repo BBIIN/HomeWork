@@ -1,0 +1,53 @@
+.web-wrap {
+  width: 250px;
+  height: 260px;
+  border-radius: 5px;
+  background-color: #ccc;
+  padding: 10px;
+  font-size: 0.875rem;
+}
+
+
+.web-box {
+  width: 218px;
+  height: 88px;
+  margin: 20px auto;
+}
+.web-title {
+  font-size: 15px;
+}
+
+.web-img:first-child {
+  float: right;
+}
+
+.web-img:last-child {
+  float: left;
+}
+
+.web-subtitle {
+  color: #296897;
+  font-weight: 600;
+}
+
+
+.web-subtitle:last-child {
+  float: right;
+  text-align: left;
+}
+
+.web-summary {
+  width: 142px;
+  margin: 0;
+  
+}
+.web-summary:first-child{
+  float: left;
+}
+.web-summary:nth-child(2) {
+  float: right;
+}
+
+.float-right {
+  float: right;
+}
