@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>webCafe 로그인 구현</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="login--group">
+    <h1 class="title">로그인</h1>
+    <div class="loginForm-wrapper">
+      <form action="post">
+        <fieldset>
+          <legend class="hidden">로그인 폼</legend>
+          <ul class="zero">
+            <li class="loginForm-box">
+              <label for="login" class="txt">아이디</label>
+              <input type="text" id="login" placeholder="euid@euid.dev"/>
+            </li>
+            <li class="loginForm-box">
+              <label for="password">비밀번호</label>
+              <input type="password" id="password" placeholder="8자리 이상"/>
+            </li>
+          </ul>
+          <button class="login-btn">로그인</button>
+        </fieldset>
+      </form>
+          <ul class="memberService">
+            <li><a href="/" class="serviceLink float-l">회원가입</a></li>
+            <li><a href="/" class="serviceLink float-r">아이디 비밀번호 찾기</a></li>
+          </ul>
+    </div>
+    
+  </div>
+</body>
+</html>
