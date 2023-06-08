@@ -2,12 +2,12 @@
   box-sizing: border-box;
 }
 .login--group {
-  width: 245px;
-  height: 160px;
+  width: 15.3125rem;
+  height: 10rem;
   background: rgb(237,85,47);
   background: linear-gradient(90deg, rgba(237,85,47,1) 0%, rgba(232,133,46,1) 100%);
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
   box-shadow: 5px 5px 0 #ccc;
 }
 
@@ -20,8 +20,8 @@
   background-color: #fff;
   border-radius: 5px;
   margin: 0 auto;
-  width: 220px;
-  height: 100px;
+  width: 13.75rem;
+  height: 6.25rem;
 }
 .hidden {
   overflow: hidden;
@@ -35,9 +35,9 @@
 
 fieldset{
   border: 0;
-  width: 220px;
-  height: 65px;
-  padding: 5px;
+  width: 13.75rem;
+  height: 4.0625rem;
+  padding: 0.3125rem;
 }
 
 .zero{
@@ -47,8 +47,8 @@ fieldset{
 
 .loginForm-box {
   list-style: none;
-  margin-bottom:5px;
-  width: 155px;
+  margin-bottom: 0.3125rem;
+  width: 9.6875rem;
   font-size: 0.875rem;
 }
 
@@ -60,19 +60,19 @@ fieldset{
 #login, #password {
   width: 5.625rem;
   height: 1.5rem; 
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   border: 1px solid #ccc;
 }
 
 .login-btn {
   background: #ED552F;
-  width: 50px;
-  height: 53px;
+  width: 3.125rem;
+  height: 3.3125rem;
   border: 0;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   color: #fff;
   position: absolute;
-  left: 185px;
+  left: 11.5625rem;
   top: 4.0625rem;
   font-size: 0.75rem;
 }
@@ -80,7 +80,7 @@ fieldset{
 
 .memberService {
   list-style: none;
-  width: 210px;
+  width: 13.125rem;
   padding: 10px 0 0;
   border-top: 1px solid #ccc;
   margin: 0 auto;
@@ -88,7 +88,7 @@ fieldset{
 
 .serviceLink {
   text-decoration: none;
-  padding-left: 12px;
+  padding-left: 0.75rem;
   color: #000;
   font-size: 0.8125rem;
   background: url(img/Vector.svg) no-repeat;
