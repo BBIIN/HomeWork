@@ -8,7 +8,6 @@
   border-radius: 0.3125rem;
   border: 1px solid #a3a3a3;
   padding-bottom: 0.625rem;
-  transition: height 1s;
 }
 
 .title {
@@ -47,9 +46,10 @@
 .site-list:hover{
   height: 9.0625rem;
 }
+
 .site-list:hover .site-item:first-child {
   padding-top: 0.625rem;
-  transition: padding-top 0.4s ease-in-out;
+  transition: padding-top 0.4s;
   transition-delay: 0.5s;
 }
 
