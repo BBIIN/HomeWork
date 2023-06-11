@@ -12,3 +12,4 @@
  \- 리스트에 transition-delay 주어 뒤늦게 내려오도록 적용.
 
  # Result
+![result](https://github.com/BBIIN/HomeWork/assets/107901091/eb73cd60-9e89-4a22-a31d-e1278981895b)
